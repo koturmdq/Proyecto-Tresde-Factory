@@ -1,0 +1,26 @@
+# --- Carpetas de build (CLion y CMake) ---
+cmake-build-*/
+build/
+
+# --- Archivos generados por CMake ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# --- Binarios de compilación ---
+*.o
+*.obj
+*.exe
+*.out
+
+# --- Archivos del sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Archivos temporales ---
+*.log
+*.tmp
+
+# --- Archivos del IDE ---
+.idea/
