@@ -42,12 +42,15 @@ Sistema de gestión desarrollado en C para una fábrica de impresión 3D. Incluy
 ### Pedidos
 - Carga de pedidos utilizando catálogo numerado.  
 - Control automático de stock:
-  - **Con stock:** pasa directamente a *En producción*.  
-  - **Sin stock:** queda en *Pendiente por stock*.  
+  - **Con stock completo:** pasa directamente a *Listo para Retirar*.
+  -  **Con stock parcial :** pasa a *En Impresión*. 
+  - **Sin stock:** queda en *En Producción*.
+    
 - Estados del pedido:
-  - Pendiente por stock  
-  - En producción  
+  - En Producción 
+  - En Impresión  
   - Finalizado
+  - Retirado
 
 ---
 
