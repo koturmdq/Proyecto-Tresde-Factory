@@ -12,11 +12,15 @@ Sistema de gestión desarrollado en C para una fábrica de impresión 3D. Incluy
 ## Funcionalidades principales
 
 ### Login y Roles
-- Inicio de sesión para **clientes** y **empleados**.  
-- Roles disponibles:
-  - **Administración:** gestiona empleados, modifica stock y genera reportes.  
-  - **Producción:** avanza estados de pedido.  
-  - **Ventas:** carga pedidos mediante catálogo y asiste al cliente.
+- Inicio de sesión para **clientes** y **empleados**.
+- - Roles disponibles en **clientes**:
+  - **Cliente nuevo:** alta de cliente (mayorista o minorista).  
+  - **Cliente registrado:** ve stock, hace pedidos, ve historial, etc.  
+    
+- Roles disponibles en **empleados**:
+  - **Administración:** gestiona empleados, modifica stock, genera reportes, etc.  
+  - **Producción:** Recibe y avanza estados de pedido.  
+  - **Calidad:** Avanza estados de pedido.
 
 ---
 
@@ -141,8 +145,6 @@ Además, el proyecto terminó compuesto por **más de 100 funciones** entre men�
 ## Nota Final Obtenida
 
 # **100 / 100**
-
-La máxima calificación.
 
 ---
 
