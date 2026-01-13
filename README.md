@@ -148,5 +148,7 @@ Además, el proyecto terminó compuesto por **más de 100 funciones** entre men�
 
 ---
 
+## Si probaste el proyecto y querés dejar tu experiencia o sugerencias, podés hacerlo en la sección [Discussions](./discussions).
+
 
 
